@@ -1,0 +1,159 @@
+html, body {
+	padding-top: 50px; 
+}
+
+
+.navbar {
+	background-color: white;
+	margin-bottom: 0;
+}
+
+.navbar-nav li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#phone {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.jumbotron {
+	background-image: url('../images/adamlevine.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 0;
+    max-width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    /*color: white;
+    padding-top: 5px;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 700px;
+	width: 100%;
+*/
+}
+
+/*#products {
+	margin-top: 40px;
+	width: 400px;
+	height: 600px;
+}*/
+
+/*.row {
+	width: 500px;
+}*/
+
+#bluebox {
+	background-image: url('../images/blue-box.jpg');
+	/*margin: 40px 0;
+	padding: 15px 10px;*/
+	
+
+	/*background-position: center;*/
+	width: 600px;
+	height: 400px;
+	color: white;
+	text-align: center;
+	margin-left: 100px;
+	margin-top: 60px;
+	padding-top: 40px;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+h2 {
+	font-family: arial;
+	font-weight: 100;
+	font-size: 40px;
+}
+
+h3, h5 {
+	color: #FFCC33;
+}
+
+h6, small {
+	color: lightgrey;
+}
+
+.btn {
+	width: 200px;
+	background-color: #FF5800;
+
+}
+
+.banner {
+  background-color: rgba(255,255,255, 0.5);
+  color: black;
+  width: 100%;
+  margin-top: 120px;
+  text-align: center;
+  padding: 10px;
+  padding-top: 15px;
+ 
+}
+
+span {
+	font-size: 20px;
+}
+
+
+@media (max-width: 960px) {
+	#bluebox {
+		 height:auto !important;
+         max-width: 400px !important;
+         width: 100% !important;
+
+
+    h2 {
+		font-family: arial;
+		font-weight: 100;
+		font-size: 20px;
+}
+
+
+	.btn {
+		width: 100px;
+	
+
+}
+
+	}
+
+}
+
+@media (max-width: 768px) {
+	#bluebox {
+		 height:auto !important;
+         max-width: 300px !important;
+         width: 100% !important;
+         margin-left: 20px;
+         padding-bottom: 20px;
+         padding-top: 5px;
+	}
+
+
+
+}
+
+
+
+footer {
+	color: grey;
+	margin-left: 20px;
+}
+
+
