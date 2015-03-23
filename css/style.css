@@ -3,15 +3,23 @@ html, body {
 }
 
 
-.navbar {
-	background-color: white;
-	margin-bottom: 0;
+.navbar-brand, .navbar-brand {
+	padding: 0;
+
+}
+.navbar .navbar-toggle .icon-bar {
+	background-color: lightblue;
 }
 
-.navbar-nav li {
-	margin-left: 10px;
-	margin-right: 10px;
+.navbar-nav li{
+	margin-right: 30px;
 }
+
+.navbar {
+	background-color: white;
+
+}
+
 
 #phone {
 	text-align: right;
@@ -28,28 +36,22 @@ html, body {
     -o-background-size: cover;
     padding-top: 0;
     max-width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    /*color: white;
     padding-top: 5px;
 	background-attachment: relative;
-	background-position: center center;
 	min-height: 700px;
 	width: 100%;
 */
 }
 
-/*#products {
-	margin-top: 40px;
-	width: 400px;
-	height: 600px;
-}*/
+#products {
+	border-right: 0;
+	width: 300px;
+	height: 300px;
+	margin-top: 70px;
+	position: relative;
+}
 
-/*.row {
-	width: 500px;
-}*/
+
 
 #bluebox {
 	background-image: url('../images/blue-box.jpg');
@@ -112,6 +114,10 @@ span {
 
 
 @media (max-width: 960px) {
+	#products {
+		width: 200px;
+		height: 200px;
+	}
 	#bluebox {
 		 height:auto !important;
          max-width: 400px !important;
@@ -136,6 +142,10 @@ span {
 }
 
 @media (max-width: 768px) {
+	#products {
+		width: 200px;
+		height: 200px;
+	}
 	#bluebox {
 		 height:auto !important;
          max-width: 300px !important;
